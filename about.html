@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+
+  <!-- for textmonial -->
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/textmonial.css">
+  <script type="text/javascript">
+    // When the DOM is ready, run this function
+    $(document).ready(function() {
+    //Set the carousel options
+    $('#quote-carousel').carousel({
+      pause: true,
+      interval: 4000,
+    });
+  });
+  </script>
+
+
+  <style type="text/css">
+    .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+
+  /* style for social icons */
+
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+ </style>
+</head>
+<body>
+
+  <!--Header starts-->
+  <div class="container-fluid" id="header">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-1">
+        <img src="image/col_logo.png" id="header_logo">
+      </div>
+      <div class="col-md-4">
+        <div class="container-fluid" id="header_col_name">
+            <p>Reliance English Secondary Boarding School</p>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <div class="container-fluid" id="header_contact">
+          <p><span class="glyphicon glyphicon-earphone"></span><b> &nbsp  9841148199,08252044</b> 
+            <br> <span class="glyphicon glyphicon-envelope"> <b> rameshnc355@gmail.com</b></span>
+            <br> <span class="glyphicon glyphicon-map-marker"> <b> Kathmandu, Nepal</b></span>
+          </p>
+        </div>
+        
+      </div>
+      <div class="col-md-1"></div>
+
+      
+    </div>
+
+  </div>
+
+  <!--Header ends-->
+
+  <!--Navbar starts-->
+  <nav class="navbar navbar-default navbar-static-top navbar-new" role="navigation" style="margin-bottom:0px;"  data-spy="affix" data-offset-top="180">
+    <div class="container-fluid">
+        <!-- logo -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">CollegeName</a>
+        </div>
+        <!-- menu -->
+        <div class="collapse navbar-collapse navbar-right" id="navbar1">
+            <ul class="nav navbar-nav">
+                      <li class="divider-vertical"></li>
+                <li><a href="index.html">Home</a></li>
+                      <li class="divider-vertical"></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="about.html">About <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="about.html">Institutional Overview</a></li>
+                    <li><a href="about.html#message">Messsage from Chairman</a></li>
+                    <li><a href="about.html#message">Messsage from Principal</a></li>
+                    <li><a href="about.html#teamSection">List of CMC</a></li>
+                    <li><a href="about.html#vmo">Vision, Mission, Objectives</a></li>
+                    <li><a href="about.html#f_s">Facilites and Services</a></li>
+                    
+                  </ul>
+                </li>
+                      <li class="divider-vertical"></li>
+                <li><a href="#">Programs</a></li>
+                      <li class="divider-vertical"></li>
+                <li><a href="download.html">Downloads</a></li>
+                      <li class="divider-vertical"></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                      <li class="divider-vertical"></li>
+                <li><a href="career.html">Career</a></li>
+                      <li class="divider-vertical"></li>
+                <li><a href="contact.html">Contact</a></li>
+                      <li class="divider-vertical"></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  <!--Navbar ends-->
+
+<!-- About Us starts -->
+<div class="container-fluid" id="aboutus">
+  <div class="row container-fluid">
+        <div class="row container-fluid text-center aboutusTitle">
+            <h2><b> About us </b></h2>
+          </div>
+
+          <div class="col-md-5" style="float: right;">
+                  <div class="thumbnail col_photo">
+                      <img src="image/building.jpg" alt="college photo">
+                  </div>
+          </div>
+
+          <div class="container-fluid text-justify aboutusText">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat elit dui, ac gravida ante consectetur vulputate. Morbi auctor et libero ut accumsan. Cras finibus consectetur dolor eu tincidunt. Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.
+          In fringilla eros sed odio facilisis volutpat. Duis nec mi nulla. Donec vel semper diam. Maecenas quis semper purus, non suscipit nibh. Ut nec dui sit amet velit porta venenatis ut at erat. Vivamus non elit et dui feugiat consectetur et vitae purus.
+          In nec sem risus. In hac habitasse platea dictumst. Etiam arcu mauris, pulvinar sit amet mi tempor, fermentum porta diam. Nam erat leo, viverra vel lacus id, fermentum ornare neque. Aenean urna justo, pulvinar in volutpat id, fermentum sit amet justo. Etiam vitae ante id tortor posuere consequat quis ut felis. Etiam dignissim faucibus dui, a tincidunt risus cursus a. Suspendisse eget erat est.
+          In fringilla eros sed odio facilisis volutpat. Duis nec mi nulla. Donec vel semper diam. Maecenas quis semper purus, non suscipit nibh. Ut nec dui sit amet velit porta venenatis ut at erat. Vivamus non elit et dui feugiat consectetur et vitae purus.
+          </div>
+  </div>
+</div>
+<!-- About Us ends -->
+
+<!--Message from section starts -->
+<div class="container-fluid" id="message">
+  <div class="row">
+
+    <!--Message from chairman starts -->
+    <div class="col-md-6 col">
+        <div class="container-fluid text-center msgTitle">
+          <h2><b> Message from Chairman </b></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="container-fluid">
+                  <div class="thumbnail photo">
+                      <img src="image/profile.png" alt="photo">
+                      <div class="caption text-center" id="photoCaption">
+                        <h3><b>Mr. Raghu Bhatta</b><br>Chairman</h3>
+                      </div>
+                  </div>
+            </div>
+          </div>
+
+          <div class="container-fluid text-justify msgText">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat elit dui, ac gravida ante consectetur vulputate. Morbi auctor et libero ut accumsan. Cras finibus consectetur dolor eu tincidunt. Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.
+
+          In nec sem risus. In hac habitasse platea dictumst. Etiam arcu mauris, pulvinar sit amet mi tempor, fermentum porta diam. Nam erat leo, viverra vel lacus id, fermentum ornare neque. Aenean urna justo, pulvinar in volutpat id, fermentum sit amet justo. Etiam vitae ante id tortor posuere consequat quis ut felis. Etiam dignissim faucibus dui, a tincidunt risus cursus a. Suspendisse eget erat est.
+          In fringilla eros sed odio facilisis volutpat. Duis nec mi nulla. Donec vel semper diam. Maecenas quis semper purus, non suscipit nibh. Ut nec dui sit amet velit porta venenatis ut at erat. Vivamus non elit et dui feugiat consectetur et vitae purus.
+          </div>
+        </div>
+    </div>
+    <!--Message from chairman ends -->
+
+    <!--  -Message from principal starts....-->
+    <div class="col-md-6">
+        <div class="container-fluid text-center msgTitle">
+          <h2><b> Message from Principal </b></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="container-fluid">
+                  <div class="thumbnail photo">
+                      <img src="image/profile.png" alt="photo">
+                      <div class="caption text-center" id="photoCaption">
+                        <h3><b>Mr. Ramesh Nc</b><br>Principal</h3>
+                      </div>
+                  </div>
+            </div>
+          </div>
+
+          <div class="container-fluid text-justify msgText">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat elit dui, ac gravida ante consectetur vulputate. Morbi auctor et libero ut accumsan. Cras finibus consectetur dolor eu tincidunt. Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.
+
+          In nec sem risus. In hac habitasse platea dictumst. Etiam arcu mauris, pulvinar sit amet mi tempor, fermentum porta diam. Nam erat leo, viverra vel lacus id, fermentum ornare neque. Aenean urna justo, pulvinar in volutpat id, fermentum sit amet justo. Etiam vitae ante id tortor posuere consequat quis ut felis. Etiam dignissim faucibus dui, a tincidunt risus cursus a. Suspendisse eget erat est.
+          In fringilla eros sed odio facilisis volutpat. Duis nec mi nulla. Donec vel semper diam. Maecenas quis semper purus, non suscipit nibh. Ut nec dui sit amet velit porta venenatis ut at erat. Vivamus non elit et dui feugiat consectetur et vitae purus.
+          </div>
+        </div>
+    </div>
+    <!--  -Message from principal ends....-->
+
+    </div>
+  </div>
+<!--Message from section ends -->
+
+<!-- Team setion starts-->
+<div class="container-fluid" id="teamSection">
+  <div class="container-fluid text-center teamTitle">
+          <h2><b> Lets Meet Our Team </b></h2>
+  </div>
+  <div class="container-fluid">
+
+    <!-- teem row 1 -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="row teamIdCard">
+            <div class="col-md-5 text-center teamPhoto">
+              <img class="thumbnail" src="image/profile.png" alt="Team Photo">
+            </div>
+
+            <div class="col-md-7 teamInfo">
+              Name : Ramesh Nagal <br>
+              Department : Mathematics
+              Subject : Mathematics <br>
+              Qualification : B.E. <br>
+              Address : Dang, Nepal <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="row teamIdCard">
+            <div class="col-md-5 text-center teamPhoto">
+              <img class="thumbnail" src="image/profile.png" alt="Team Photo">
+            </div>
+
+            <div class="col-md-7 teamInfo">
+              Name : Ramesh Nagal <br>
+              Department : Mathematics
+              Subject : Mathematics <br>
+              Qualification : B.E. <br>
+              Address : Dang, Nepal <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="row teamIdCard">
+            <div class="col-sm-5 text-center teamPhoto">
+              <img class="thumbnail" src="image/profile.png" alt="Team Photo">
+            </div>
+
+            <div class="col-sm-7 teamInfo">
+              Name : Ramesh Nagal <br>
+              Department : Mathematics
+              Subject : Mathematics <br>
+              Qualification : B.E. <br>
+              Address : Dang, Nepal <br>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <!-- teem row 2 -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="row teamIdCard">
+            <div class="col-sm-5 text-center teamPhoto">
+              <img class="thumbnail" src="image/profile.png" alt="Team Photo">
+            </div>
+
+            <div class="col-sm-7 teamInfo">
+              Name : Ramesh Nagal <br>
+              Department : Mathematics
+              Subject : Mathematics <br>
+              Qualification : B.E. <br>
+              Address : Dang, Nepal <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="row teamIdCard">
+            <div class="col-sm-5 text-center teamPhoto">
+              <img class="thumbnail" src="image/profile.png" alt="Team Photo">
+            </div>
+
+            <div class="col-sm-7 teamInfo">
+              Name : Ramesh Nagal <br>
+              Department : Mathematics
+              Subject : Mathematics <br>
+              Qualification : B.E. <br>
+              Address : Dang, Nepal <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="row teamIdCard">
+            <div class="col-sm-5 text-center teamPhoto">
+              <img class="thumbnail" src="image/profile.png" alt="Team Photo">
+            </div>
+
+            <div class="col-md-7 teamInfo">
+              Name : Ramesh Nagal <br>
+              Department : Mathematics
+              Subject : Mathematics <br>
+              Qualification : B.E. <br>
+              Address : Dang, Nepal <br>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+  </div>
+<!-- Team setion ends -->
+
+
+<!-- Vision , Mission and Objective section starts -->
+
+
+  <div class="row container-fluid" id="vmo">
+    <div class="col-md-4">
+      <div class="container-fluid text-center" id="vission">
+        <h1><b>Our Vission</b></h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat elit dui, ac gravida ante consectetur vulputate. Morbi auctor et libero ut accumsan. Cras finibus consectetur dolor eu tincidunt. Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.</h3>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="container-fluid text-center" id="mission">
+        <h1><b>Our Mission</b></h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat elit dui, ac gravida ante consectetur vulputate. Morbi auctor et libero ut accumsan. Cras finibus consectetur dolor eu tincidunt. Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.</h3>
+      </div>
+      </div>
+  
+    <div class="col-md-4">
+      <div class="container-fluid text-center" id="objective">
+        <h1><b>Our Objective</b></h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat elit dui, ac gravida ante consectetur vulputate. Morbi auctor et libero ut accumsan. Cras finibus consectetur dolor eu tincidunt. Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.</h3>
+      </div>
+      </div>
+    </div>
+
+<!-- Vision , Mission and Objective section ends -->
+
+
+
+<!--Facilites and Services starts -->
+<div class="container-fluid" id="f_s">
+  <div class="row container-fluid">
+        <div class="row container-fluid text-center fsTitle">
+            <h2><b> Facilites and Services </b></h2>
+          </div>
+
+          <div class="row">
+            <div class="col-md-5" style="float: right;">
+                    <div class="thumbnail col_photo">
+                        <img src="image/library.jpeg" class="img-responsive" alt="Library photo">
+                    </div>
+            </div>
+
+            <h2 class="fsSubTitle"><b> Our Library </b></h2>
+            <div class="container-fluid text-justify fsText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat elit dui, ac gravida ante consectetur vulputate. Morbi auctor et libero ut accumsan. Cras finibus consectetur dolor eu tincidunt. Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.
+            In fringilla eros sed odio facilisis volutpat. Duis nec mi nulla. Donec vel semper diam. Maecenas quis semper purus, non suscipit nibh. Ut nec dui sit amet velit porta venenatis ut at erat. Vivamus non elit et dui feugiat consectetur et vitae purus.
+            In nec sem risus. In hac habitasse platea dictumst. Etiam arcu mauris, pulvinar sit amet mi tempor, fermentum porta diam. Nam erat leo, viverra vel lacus id, fermentum ornare neque. Aenean urna justo, pulvinar in volutpat id, fermentum sit amet justo. Etiam vitae ante id tortor posuere consequat quis ut felis. Etiam dignissim faucibus dui, a tincidunt risus cursus a. Suspendisse eget erat est.
+            In fringilla eros sed odio facilisis volutpat. Duis nec mi nulla. Donec vel semper diam. Maecenas quis semper purus, non suscipit nibh. Ut nec dui sit amet velit porta venenatis ut at erat. Vivamus non elit et dui feugiat consectetur et vitae purus.
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="col-md-5" style="float: left;">
+                    <div class="thumbnail col_photo">
+                        <img src="image/lab.jpg" class="img-responsive" alt="Lab photo">
+                    </div>
+            </div>
+
+            <h2 class="fsSubTitle"><b> Our Lab </b></h2>
+            <div class="container-fluid text-justify fsText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat elit dui, ac gravida ante consectetur vulputate. Morbi auctor et libero ut accumsan. Cras finibus consectetur dolor eu tincidunt. Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.
+            In fringilla eros sed odio facilisis volutpat. Duis nec mi nulla. Donec vel semper diam. Maecenas quis semper purus, non suscipit nibh. Ut nec dui sit amet velit porta venenatis ut at erat. Vivamus non elit et dui feugiat consectetur et vitae purus.
+            In nec sem risus. In hac habitasse platea dictumst. Etiam arcu mauris, pulvinar sit amet mi tempor, fermentum porta diam. Nam erat leo, viverra vel lacus id, fermentum ornare neque. Aenean urna justo, pulvinar in volutpat id, fermentum sit amet justo. Etiam vitae ante id tortor posuere consequat quis ut felis. Etiam dignissim faucibus dui, a tincidunt risus cursus a. Suspendisse eget erat est.
+            In fringilla eros sed odio facilisis volutpat. Duis nec mi nulla. Donec vel semper diam. Maecenas quis semper purus, non suscipit nibh. Ut nec dui sit amet velit porta venenatis ut at erat. Vivamus non elit et dui feugiat consectetur et vitae purus.
+            </div>
+          </div>
+
+          <hr>
+          
+          <div class="row">
+            <div class="col-md-5" style="float: right;">
+                    <div class="thumbnail col_photo">
+                        <img src="image/canteen.jpg" class="img-responsive" alt="Canteen photo">
+                    </div>
+            </div>
+
+            <h2 class="fsSubTitle"><b> Our Canteen </b></h2>
+            <div class="container-fluid text-justify fsText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat elit dui, ac gravida ante consectetur vulputate. Morbi auctor et libero ut accumsan. Cras finibus consectetur dolor eu tincidunt. Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.
+            In fringilla eros sed odio facilisis volutpat. Duis nec mi nulla. Donec vel semper diam. Maecenas quis semper purus, non suscipit nibh. Ut nec dui sit amet velit porta venenatis ut at erat. Vivamus non elit et dui feugiat consectetur et vitae purus.
+            In nec sem risus. In hac habitasse platea dictumst. Etiam arcu mauris, pulvinar sit amet mi tempor, fermentum porta diam. Nam erat leo, viverra vel lacus id, fermentum ornare neque. Aenean urna justo, pulvinar in volutpat id, fermentum sit amet justo. Etiam vitae ante id tortor posuere consequat quis ut felis. Etiam dignissim faucibus dui, a tincidunt risus cursus a. Suspendisse eget erat est.
+            In fringilla eros sed odio facilisis volutpat. Duis nec mi nulla. Donec vel semper diam. Maecenas quis semper purus, non suscipit nibh. Ut nec dui sit amet velit porta venenatis ut at erat. Vivamus non elit et dui feugiat consectetur et vitae purus.
+            </div>
+          </div>
+
+  </div>
+</div>
+<!--Facilites and Services ends -->
+
+
+
+
+<!-- FAQ section starts-->
+<div class="row container-fluid" id="faqSection">
+  <div class="col-md-12">
+    <div class="row container-fluid text-center faqTitle">
+            <h2><b> Frequently Asked Questions (FAQ) </b></h2>
+    </div>
+
+    <div class="row container-fluid quesAns">
+      <a href="#ans1" data-toggle="collapse">
+        <div class="container-fluid question">
+            <h3> <span class="glyphicon glyphicon-question-sign"></span>  When did this college built ? <span class="glyphicon glyphicon-menu-down" style="float: right;"></span> </h3>
+        </div>
+      </a>
+      <div class="container-fluid collapse text-justify faqAns" id="ans1">
+          <h4> <span class="glyphicon glyphicon-hand-right"></span>
+          Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.</h4>
+      </div>
+    </div>
+
+    <div class="row container-fluid quesAns">
+      <a href="#ans2" data-toggle="collapse">
+        <div class="container-fluid question">
+            <h3> <span class="glyphicon glyphicon-question-sign"></span>  Where can I get some? <span class="glyphicon glyphicon-menu-down" style="float: right;"></span> </h3>
+        </div>
+      </a>
+      <div class="container-fluid collapse text-justify faqAns" id="ans2">
+          <h4> <span class="glyphicon glyphicon-hand-right"></span>
+          Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.</h4>
+      </div>
+    </div>
+
+    <div class="row container-fluid quesAns">
+      <a href="#ans3" data-toggle="collapse">
+        <div class="container-fluid question">
+            <h3> <span class="glyphicon glyphicon-question-sign"></span>  Where does it come from? <span class="glyphicon glyphicon-menu-down" style="float: right;"></span> </h3>
+        </div>
+      </a>
+      <div class="container-fluid collapse text-justify faqAns" id="ans3">
+          <h4> <span class="glyphicon glyphicon-hand-right"></span>
+          Curabitur eu ante at orci cursus mattis. Sed efficitur mollis aliquam. Quisque aliquet urna velit. Sed euismod porta lorem, sit amet placerat arcu mollis eget. In a rutrum diam, nec ultrices orci. Curabitur nec lectus eleifend, eleifend ipsum quis, vehicula justo. Donec arcu nisl, tincidunt quis eleifend sit amet, ultricies at velit. Suspendisse tristique turpis sit amet congue ultricies.</h4>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+<!-- FAQ section ends-->
+
+<hr>
+<!--footer starts -->
+
+  <div class="row" id="lightFooter">
+    <div class="col-md-3 col">
+      <h3 style="color:white;"><b>Quick links</b></h3>
+      <hr>
+
+      <ul class="list-unstyled" id="quickLinks">
+                  <li><a href="home_page.html"><span class="glyphicon glyphicon-chevron-right"></span> FAQ</a></li>
+                          <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Alumni</a></li>
+                          <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Feedback Box</a></li>
+                          <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Committees</a></li>
+                          <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Academic Calender</a></li>
+                          <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Publications and Reports</a></li>
+                          <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Staff Information</a></li>
+ 
+    </ul>
+
+    </div>
+    <div class="col-md-6 col">
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <img src="image/col_logo.png" id="footer_logo">
+        </div>
+
+        <div class="col-md-10">
+          <div class="container-fluid" id="footer_col_name">
+            <p>Reliance English Secondary Boarding School</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container-fluid" id="footer_col_desc">
+            Reliance English Secondary Boarding School was created with an objective of providing an outstanding 360 degree education in character building.Reliance English Secondary Boarding School was created with an objective of providing an outstanding 360 degree education in character building.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col">
+      <h3 style="color:white;"><b>Contact</b></h3>
+      <hr>
+              <div class="address">
+                <h4 style="color:white;"><b><h3>Reliance English Secondary Boarding School</h3></b>
+                 Tulsipur Sub-Metropolitan City, Ward No.-5 ('Ga' line), Dang, Nepal.<br>
+                  Phone: 9841148199<br>
+                  Email: <span><a href="#" target="_blank">rameshnc355@gmail.com</a></span>
+
+                </h4>
+              </div>
+              
+                <a href="https://www.facebook.com/Clock-consult-pvtltd-2072590089682574/" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+    </div>
+  </div>
+
+
+<div class = "row footer text-center" id="darkFooter">
+      <p style="color:gray;">&copy;2018 Example college of Engineering | Designed and Developed by Ramesh Nagal
+              <!--
+              <a href="http://seleccaos.com/" target="_blank">Seleccao Tech Pvt. Ltd.
+              </a> -->
+      </p>
+</div>
+<!--footer ends -->
+
+</body>
+</html>

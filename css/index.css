@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+
+#header {
+    background: #003333;
+/*    height: 180px;
+*/}
+
+#header_col_name {
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#header_logo {
+    height: 150px;
+    width: 150px;
+}
+
+#header_contact {
+    color: white;
+    font-size: 20px;
+    float: right; 
+    padding-right: 20px; 
+    padding-top: 20px
+}
+
+#wellcomeBody {
+    background: #003333;
+    /*height: 600px;*/
+}
+
+#welcomeMsg h1{
+    color: white;
+    font-family: Alfa Slab One;
+}
+
+#welcomeMsg h3{
+    color: white;
+    font-family: Bellefair;
+}
+
+#notice {
+    background: #666633;
+    /*height: 600px;*/
+}
+
+#noticeTitle {
+    background: #003333;
+    height: 80px;
+    color: white;
+    margin-top: 10px;
+}
+
+.noticeBody{
+    color: white;
+    font-size: 20px;
+    outline: 1px solid white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+#event_news {
+    background-color: #d6d6c2;
+}
+
+
+.enTitle {
+    background: #3d3d29;
+    height: 80px;
+    color: white;
+    margin-top: 10px;
+}
+
+.events {
+    outline: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.eventMonth {
+    background: #3d3d29;
+    color:white; 
+}
+
+.eventDate {
+
+}
+
+.eventDesc {
+    padding-top: 30px;
+}
+
+.textimonialTitle {
+    background: #d6d6c2;
+    margin-top: 10px;
+    height: 80px;
+}
+.raTitle {
+    background: #d6d6c2;
+    margin-top: 10px;
+    height: 80px;
+}
+
+
+#lightFooter {
+    background: #420561;
+    
+}
+
+#quickLinks a{
+    color: white;
+    font-size: 18px;
+}
+
+#footer_logo {
+    height: 130px;
+    width: 130px;
+}
+
+#footer_col_name{
+    padding-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#footer_col_desc{
+    color: white;
+    font-size: 20px;
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+}
+
+
+#darkFooter {
+    background: #320349;
+    height: 80px;
+    color: gray;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+
+
+.navbar-new {
+    background-color: #320349;
+}
+
+.navbar-new .navbar-brand,
+.navbar-new .navbar-brand:hover,
+.navbar-new .navbar-brand:focus {
+    color: #FFF;
+}
+
+.navbar-new .navbar-nav > li > a {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.navbar-new .navbar-nav > li > a:hover,
+.navbar-new .navbar-nav > li > a:focus {
+    background-color: #190126;
+    color: #FFF;
+}
+
+.navbar-new .navbar-toggle {
+    border-color: #190126;
+}
+
+.navbar-new .navbar-toggle:hover,
+.navbar-new .navbar-toggle:focus {
+    background-color: #190126;
+}
+
+.navbar-new .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+/* for divider on nav var*/
+
+.navbar .divider-vertical {
+    height: 60px;
+    
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #f2f2f2;
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+    border-left-color: #111111;
+}
+
+
+.dropdown-menu a{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+
+
+
+     #header {
+    background: #003333;
+    }
+
+    #header_col_name {
+        margin-top: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #header_logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    #header_contact {
+        color: white;
+        font-size: 10px;
+        float: right; 
+        padding-right: 20px; 
+        padding-top: 5px
+    }
+
+ }
+
+
+ /*css for about page*/
+#aboutus {
+    margin-top: 20px;
+}
+
+.aboutusTitle {
+    background: #3d3d29;
+    height: 80px;
+    color: white;
+    margin-top: 10px;
+}
+
+.aboutusText {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Bellefair;
+    padding-bottom: 20px;
+}
+
+.col_photo {
+    margin-top: 10px;
+}
+
+#message {
+    background-color: #d6d6c2;
+}
+
+.msgTitle {
+    background: #3d3d29;
+    height: 80px;
+    color: white;
+    margin-top: 10px;
+}
+
+.photo {
+    margin-top: 10px;
+}
+#photoCaption {
+    margin-top: 10px;
+    background: #003d99;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.msgText {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Bellefair;
+
+}
+
+#teamSection {
+
+}
+
+.teamTitle {
+    background: #e5f2ff;
+    outline: 4px solid #3d3d29;
+    margin-top: 10px;
+    color: #3d3d29
+}
+
+.teamIdCard {
+    background: #e5f2ff;
+    outline: 3px solid #3d3d29;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3d3d29;
+    font-size: 25px;
+    margin-right: 2px;
+}
+
+.teamInfo {
+    margin-top: 20px;
+}
+
+.teamPhoto {
+    margin-top: 10px;
+}
+
+#vmo {
+    background: #003333;
+    font-family: Amaranth;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#f_s {
+    margin-top: 20px;
+}
+
+.fsTitle {
+    background: #3d3d29;
+    height: 80px;
+    color: white;
+    margin-top: 10px;
+}
+
+.fsSubTitle {
+    font-family: Bellefair;
+    font-weight: 35px;
+
+}
+
+.fsText {  
+    font-size: 25px;
+    font-family: Bellefair;
+    padding-bottom: 20px;
+}
+
+
+.faqTitle {
+    outline: 4px solid #320349;
+    background: #d6d6c2;
+    margin-top: 20px;
+    color: #320349
+}
+
+.question {
+    outline: 2px solid #320349;
+    margin-top: 20px;
+    color: #320349;
+    font-family: Amaranth;
+
+}
+
+#faqSection a:hover {
+    text-decoration: none;
+}
+
+.faqAns {
+    font-family: Bellefair;
+    color: green;
+}
+
+
+
+/*gallery style*/
+#gallery {
+    background: #997366;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#galleryTitle {
+    color: white;
+    font-family: Amaranth;
+}
+
+.gal-item {
+    margin-top: 10px;
+}
+
+
+/*download style*/
+#download {
+    background: #006666;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#downloadTitle {
+    color: white;
+    font-family: Amaranth;
+}
+
+
+.fa-file-pdf {
+    color: red;
+}
+
+.down-item {
+    color: white;
+    font-family: Amaranth;
+}
+
+
+
+/*career style*/
+#career {
+    background: #997366;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#careerTitle {
+    color: white;
+    font-family: Amaranth;
+}
+
+
+/*contact style*/
+#contact {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contactTitle {
+    font-family: Amaranth;
+
+    background: #3d3d29;
+    height: 80px;
+    color: white;
+    margin-top: 10px;
+}
+
+.contactText {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Bellefair;
+}
+
+.contactText ul {
+    list-style: none;
+}
